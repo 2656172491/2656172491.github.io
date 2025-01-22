@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 土豆博客
+subtitle: '个人博客'
+description: '天行健，君子当自强不息'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 土豆
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -104,3 +104,7 @@ deploy:
   type: git
   repo: git@github.com:2656172491/2656172491.github.io.git
   branch: main
+
+lazyload:
+  enable: true
+  loadingImg: /img/loading.gif
