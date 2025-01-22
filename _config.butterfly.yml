@@ -778,7 +778,10 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
+  load_color: '#000000'
+  load_style: default
+  load_image: 
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)

@@ -105,6 +105,3 @@ deploy:
   repo: git@github.com:2656172491/2656172491.github.io.git
   branch: main
 
-lazyload:
-  enable: true
-  loadingImg: /img/loading.gif
