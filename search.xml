@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>学习日记-软考-01</title>
+      <link href="/2025/09/21/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0-%E8%BD%AF%E8%80%83-01/"/>
+      <url>/2025/09/21/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0-%E8%BD%AF%E8%80%83-01/</url>
+      
+        <content type="html"><![CDATA[<h1 id="学习日记-软考-01"><a href="#学习日记-软考-01" class="headerlink" title="学习日记-软考-01"></a>学习日记-软考-01</h1><blockquote><p>2025.09.21</p></blockquote><h4 id="存储器"><a href="#存储器" class="headerlink" title="存储器"></a>存储器</h4><p>存储器主要分为4种，分别是DRAM、EPROM、SRAM、EEPROM<br>SRAM，随机存储器，只要通电数据就会恒常保持。<br>DRAM，动态随机存储器，需要周期性的刷电，否则数据会消失。<br>EPROM，非易失性的存储芯片，在断电后依旧可以存储数据。<br>EEPROM，带电可擦可编程只读存储器，掉电后数据不会丢失的存储芯片。</p><h4 id="输入输出"><a href="#输入输出" class="headerlink" title="输入输出"></a>输入输出</h4><p>输入&#x2F;输出的三种方式为：直接查询控制、中断方式、DMA<br>直接查询控制：在这种情况下CPU不做别的事情，只是不停地对外设的状态进行查询。<br>中断方式:CPU不查询I&#x2F;O的状态，当I&#x2F;O系统准备好后会给CPU发中断请求，CPU会保存正在执行的程序的现场，转去处理I&#x2F;O系统。然后再返回被打断的现场。该方式因CPU无需等待而提高了效率<br>DMA:数据在内存和I&#x2F;O设备间直接传送，不需要CPU干涉。<br>因此DMA和中断都可以实现外设和CPU之间的并行工作。</p><h4 id="CPU的组成"><a href="#CPU的组成" class="headerlink" title="CPU的组成"></a>CPU的组成</h4><p>CPU主要分为运算器和控制器两个部分<br>运算器包括：算术逻辑单元ALU、累加寄存器AC、数据缓冲寄存器DR<br>控制器包括：程序计数器PC、指令寄存器IR、指令译码器ID、时序部件。<br>其中状态条件寄存器PSW归属存在争议，既可属于运算器又可属于控制器</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 软考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>学习日记-操作系统-01</title>
       <link href="/2025/09/16/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-01/"/>
       <url>/2025/09/16/%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F-01/</url>
