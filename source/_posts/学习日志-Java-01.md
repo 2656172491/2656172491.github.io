@@ -1,7 +1,9 @@
 ---
 title: 学习日志-Java-01
-date: 2025-09-15 14:46:30
 tags: Java
+summary: >-
+  这里是言寺AI，这篇文章是一篇关于Java学习日志Day01的内容，主要介绍了Java的8大基本数据类型包括char、byte、short、int、long、float、double和boolean，并提到可以通过Integer.MAX_VALUE和Integer.MIN_VALUE等方法获取这些数据类型的值域，同时讲解了Java中的自动类型转换顺序为byte到double，且仅适用于小类型转大类型，大类型转小类型需要强制类型转换，特别指出byte、short转char也需要强制转换，此外还列举了Java中的运算符类型，包括算数运算符、关系运算符、逻辑运算符、赋值运算符以及它们的优先级，整体内容聚焦于Java基础数据类型与运算符的基础知识与使用注意事项。
+date: 2025-09-15 14:46:30
 ---
 
 # 学习日志——Java——day01

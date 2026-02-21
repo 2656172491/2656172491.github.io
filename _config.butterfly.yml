@@ -357,7 +357,7 @@ aside:
 # The distance between the bottom right button and the bottom (default unit: px)
 rightside_bottom:
 
-# Conversion between Traditional and Simplified Chinese
+# 网页文字繁体简体切换
 translate:
   enable: false
   # The text of a button
@@ -376,7 +376,7 @@ readmode: true
 
 # Dark Mode
 darkmode:
-  enable: true
+  enable: false
   # Toggle Button to switch dark/light mode
   button: true
   # Switch dark/light mode automatically
@@ -389,7 +389,7 @@ darkmode:
   end:
 
 # Show scroll percent in scroll-to-top button
-rightside_scroll_percent: false
+rightside_scroll_percent: true
 
 # Don't modify the following settings unless you know how they work
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
@@ -467,8 +467,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 
 
   # Algolia Search
   algolia_search:
@@ -1040,6 +1040,13 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
 
+# AI Summary
+ai_summary:
+  enable: true
+  title: 言寺AI
+  loadingText: 言寺AI正在绞尽脑汁想思路ING···
+  modelName: hunyuan-turbos-latest
+  
 # CDN Settings
 # Don't modify the following settings unless you know how they work
 CDN:

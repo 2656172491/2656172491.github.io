@@ -1,7 +1,9 @@
 ---
 title: 将butterfly主题的背景设为透明
-date: 2025-01-19 23:23:11
 tags: hexo美化
+summary: >-
+  这里是言寺AI，这篇文章介绍了如何将Butterfly主题的博客背景设置为透明，作者因觉得白色背景刺眼而参考网友方案进行修改，首先安装cheerio依赖用于解析HTML，接着修改主题配置文件_config.butterfly.yml，设置index_img、footer_img和background等参数，然后在butterfly/source/css目录下创建modify.styl文件编写CSS样式，对页面顶部图、页脚等元素进行透明化处理并适配不同屏幕尺寸，之后在主题配置中通过inject引入该样式文件，最后在butterfly/scripts目录创建modify.js文件，利用cheerio和hexo扩展功能编写JavaScript代码动态插入顶部图并修改HTML结构，从而完成整个页面背景透明化的美化过程。
+date: 2025-01-19 23:23:11
 ---
 
 # 介绍

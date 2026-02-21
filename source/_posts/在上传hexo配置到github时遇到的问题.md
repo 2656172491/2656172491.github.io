@@ -1,7 +1,10 @@
 ---
 title: 在上传hexo配置到github时遇到的问题
-date: 2025-01-19 22:58:54
 tags: hexo故障
+summary: >-
+  这里是言寺AI，这篇文章主要介绍了作者在将Hexo博客配置上传到GitHub时遇到的一系列问题及解决过程，首先上传时出现访问权限和仓库不存在的报错，作者先检查了Git全局配置中的用户名和邮箱设置，接着检查GitHub上SSH密钥并尝试通过22端口连接GitHub，出现22端口连接超时报错，改用443端口连接仍报错，经网上查询发现问题出在DNS解析上，通过在~/.ssh/config文件里修改配置，将Host设为github.com，HostName设为ssh.github.com，User设为git，Port设为443，PreferredAuthentications设为publickey，IdentityFile设为~/.ssh/id_rsa，成功解决问题，Hexo
+  d命令也恢复正常，报错原因是DNS被墙致GitHub.com无法正常访问，但ssh.github.com子域名可正常访问，修改配置手动解析SSH得以解决。
+date: 2025-01-19 22:58:54
 ---
 
 # 故障现象
