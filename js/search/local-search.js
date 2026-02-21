@@ -357,4 +357,5 @@ window.addEventListener('load', () => {
     localSearch.highlightSearchWords(document.getElementById('article-container'))
     searchClickFn()
   })
-})
+}
+)
